@@ -1,0 +1,12 @@
+Source: ros-jazzy-tf2-web-republisher
+Section: misc
+Priority: optional
+Maintainer: Błażej Sowa <blazej@fictionlab.pl>
+Build-Depends: debhelper (>= 9.0.0), ros-jazzy-ament-cmake, ros-jazzy-ament-cmake-gmock <!nocheck>, ros-jazzy-geometry-msgs, ros-jazzy-rclcpp, ros-jazzy-rclcpp-action, ros-jazzy-rclcpp-components, ros-jazzy-tf2, ros-jazzy-tf2-ros, ros-jazzy-tf2-web-republisher-interfaces, ros-jazzy-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-tf2-web-republisher
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jazzy-geometry-msgs, ros-jazzy-rclcpp, ros-jazzy-rclcpp-action, ros-jazzy-rclcpp-components, ros-jazzy-tf2, ros-jazzy-tf2-ros, ros-jazzy-tf2-web-republisher-interfaces, ros-jazzy-ros-workspace
+Description: Republishing of Selected TFs
