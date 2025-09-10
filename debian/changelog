@@ -1,0 +1,8 @@
+ros-kilted-tf2-web-republisher (1.0.0-1bookworm) bookworm; urgency=high
+
+  * Port to ROS 2 (#35 <https://github.com/RobotWebTools/tf2_web_republisher/issues/35>)
+  * Contributors: Paul Gesel, Błażej Sowa
+
+ -- Błażej Sowa <blazej@fictionlab.pl>  Fri, 01 Aug 2025 00:00:00 -0000
+
+
