@@ -1,0 +1,12 @@
+Source: ros-rolling-tf2-web-republisher
+Section: misc
+Priority: optional
+Maintainer: Błażej Sowa <blazej@fictionlab.pl>
+Build-Depends: debhelper (>= 9.0.0), ros-rolling-ament-cmake, ros-rolling-ament-cmake-gmock <!nocheck>, ros-rolling-geometry-msgs, ros-rolling-rclcpp, ros-rolling-rclcpp-action, ros-rolling-rclcpp-components, ros-rolling-tf2, ros-rolling-tf2-ros, ros-rolling-tf2-web-republisher-interfaces, ros-rolling-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-rolling-tf2-web-republisher
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-rolling-geometry-msgs, ros-rolling-rclcpp, ros-rolling-rclcpp-action, ros-rolling-rclcpp-components, ros-rolling-tf2, ros-rolling-tf2-ros, ros-rolling-tf2-web-republisher-interfaces, ros-rolling-ros-workspace
+Description: Republishing of Selected TFs
